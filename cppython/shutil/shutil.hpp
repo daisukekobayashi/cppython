@@ -28,7 +28,7 @@ namespace cppython { namespace shutil {
         return true;
     }
 
-    bool rmtree(const boost::fileystem::wpath& wph)
+    bool rmtree(const boost::filesystem::wpath& wph)
     {
         boost::filesystem::remove_all(wph);
         return true;
